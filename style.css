@@ -1,0 +1,17 @@
+
+#myData {
+    
+    padding: 0%;
+    margin: 0%;
+    background-color: #eeeded;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    #myData {
+        width: 100%;
+    }
+}
