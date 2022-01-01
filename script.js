@@ -1,5 +1,5 @@
 async function fetchData(){
-  var response = await fetch("https://api.github.com")
+  var response = await fetch("https://jsonplaceholder.typicode.com/posts/1")
     return response
   }
   fetchData()
